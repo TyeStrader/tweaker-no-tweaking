@@ -2,11 +2,11 @@
 
 A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files
 
-<details>
+<details open>
 
 <summary>Process Mitigations</summary>
 
-### My findings
+# Research
 
 > HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel
 
@@ -23,7 +23,133 @@ the -Force On syntax is to set the override value when doing 'Get-ProcessMitigat
 Set-ProcessMitigation -System -Disable DEP, EmulateAtlThunks, SEHOP, ForceRelocateImages, RequireInfo, BottomUp, HighEntropy, StrictHandle, DisableWin32kSystemCalls, AuditSystemCall, DisableExtensionPoints, BlockDynamicCode, AllowThreadsToOptOut, AuditDynamicCode, CFG, SuppressExports, StrictCFG, MicrosoftSignedOnly, AllowStoreSignedBinaries, AuditMicrosoftSigned, AuditStoreSigned, EnforceModuleDependencySigning, DisableNonSystemFonts, AuditFont, BlockRemoteImageLoads, BlockLowLabelImageLoads, PreferSystem32, AuditRemoteImageLoads, AuditLowLabelImageLoads, AuditPreferSystem32, EnableExportAddressFilter, AuditEnableExportAddressFilter, EnableExportAddressFilterPlus, AuditEnableExportAddressFilterPlus, EnableImportAddressFilter, AuditEnableImportAddressFilter, EnableRopStackPivot, AuditEnableRopStackPivot, EnableRopCallerCheck, AuditEnableRopCallerCheck, EnableRopSimExec, AuditEnableRopSimExec, SEHOP, AuditSEHOP, SEHOPTelemetry, TerminateOnError, DisallowChildProcessCreation, AuditChildProcess, UserShadowStack, AuditUserShadowStack, DisableFsctlSystemCalls
 ```
 
-</details>
+ <details>
+## Get-ProcessMitigations -System
+Lets see what output I get.
+
+ **Both MitigationOptions & MitigationAuditOptions keys have been removed beforehand**
+
+
+```Powershell
+PS C:\Program Files\PowerShell\7> Get-ProcessMitigation -System
+
+ProcessName                      : System
+Source                           : System Defaults
+Id                               : 0
+
+DEP:
+    Enable                             : NOTSET
+    EmulateAtlThunks                   : NOTSET
+    Override DEP                       : False
+
+ASLR:
+    BottomUp                           : NOTSET
+    Override BottomUp                  : False
+    ForceRelocateImages                : NOTSET
+    RequireInfo                        : NOTSET
+    Override ForceRelocate             : False
+    HighEntropy                        : NOTSET
+    Override High Entropy              : False
+
+StrictHandle:
+    Enable                             : NOTSET
+    Override StrictHandle              : False
+
+System Call:
+    DisableWin32kSystemCalls           : NOTSET
+    Audit                              : NOTSET
+    Override SystemCall                : False
+    DisableFsctlSystemCalls            : NOTSET
+    AuditFsctlSystemCalls              : NOTSET
+    Override FsctlSystemCall           : False
+
+ExtensionPoint:
+    DisableExtensionPoints             : NOTSET
+    Override ExtensionPoint            : False
+
+DynamicCode:
+    BlockDynamicCode                   : NOTSET
+    AllowThreadsToOptOut               : NOTSET
+    Audit                              : NOTSET
+    Override DynamicCode               : False
+
+CFG:
+    Enable                             : NOTSET
+    SuppressExports                    : NOTSET
+    Override CFG                       : False
+    StrictControlFlowGuard             : NOTSET
+    Override StrictCFG                 : False
+
+BinarySignature:
+    MicrosoftSignedOnly                : NOTSET
+    AllowStoreSignedBinaries           : NOTSET
+    EnforceModuleDependencySigning     : NOTSET
+    AuditMicrosoftSignedOnly           : NOTSET
+    AuditStoreSigned                   : NOTSET
+    AuditEnforceModuleDependencySigning: NOTSET
+    Override MicrosoftSignedOnly       : False
+    Override DependencySigning         : False
+
+FontDisable:
+    DisableNonSystemFonts              : NOTSET
+    Audit                              : NOTSET
+    Override FontDisable               : False
+
+ImageLoad:
+    BlockRemoteImageLoads              : NOTSET
+    AuditRemoteImageLoads              : NOTSET
+    Override BlockRemoteImages         : False
+    BlockLowLabelImageLoads            : NOTSET
+    AuditLowLabelImageLoads            : NOTSET
+    Override BlockLowLabel             : False
+    PreferSystem32                     : NOTSET
+    AuditPreferSystem32                : NOTSET
+    Override PreferSystem32            : False
+
+Payload:
+    EnableExportAddressFilter          : NOTSET
+    AuditEnableExportAddressFilter     : NOTSET
+    Override ExportAddressFilter       : False
+    EnableExportAddressFilterPlus      : NOTSET
+    AuditEnableExportAddressFilterPlus : NOTSET
+    Override ExportAddressFilterPlus   : False
+    EAFModules                         : {}
+    EnableImportAddressFilter          : NOTSET
+    AuditEnableImportAddressFilter     : NOTSET
+    Override ImportAddressFilter       : False
+    EnableRopStackPivot                : NOTSET
+    AuditEnableRopStackPivot           : NOTSET
+    Override EnableRopStackPivot       : False
+    EnableRopCallerCheck               : NOTSET
+    AuditEnableRopCallerCheck          : NOTSET
+    Override EnableRopCallerCheck      : False
+    EnableRopSimExec                   : NOTSET
+    AuditEnableRopSimExec              : NOTSET
+    Override EnableRopSimExec          : False
+
+SEHOP:
+    Enable                             : NOTSET
+    TelemetryOnly                      : NOTSET
+    Audit                              : NOTSET
+    Override SEHOP                     : False
+
+Heap:
+    TerminateOnError                   : NOTSET
+    Override HEAP                      : False
+
+Child Process:
+    DisallowChildProcessCreation       : NOTSET
+    Audit                              : NOTSET
+    Override ChildProcess              : False
+
+User Shadow Stack:
+    UserShadowStack                    : NOTSET
+    UserShadowStackStrictMode          : NOTSET
+    AuditUserShadowStack               : NOTSET
+    Override UserShadowStack           : False
+```
+ </details>
+</details open>
 
 
 
