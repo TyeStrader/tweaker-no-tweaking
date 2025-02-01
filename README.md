@@ -4,12 +4,16 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 ## Drivers
 
+(Driver may not link to most up to date stuff, check)
+
 <p><strong>Nvidia GPU Driver</strong> <em>1/30/2025</em> (Should be using NVCleanstall) - > https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe<br>
 <strong>Realtek Ethernet Driver</strong> <em>12/24/2024</em> - > https://www.realtek.com/Download/ToDownload?type=direct&downloadid=4342<br>
 <strong>XL2546K Driver</strong> - > https://esupportdownload.benq.com/esupport/ESPORTS%20DISPLAY/Driver/XL2546K/XL2546K_WHQL%20driver_V001_Windows.zip<br>
 <strong>Samsung G7 Driver</strong> - > https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=8660949&CDCttType=DR&ModelType=C&ModelName=LS32BG752NNXGO&VPath=DR/202206/20220620100428315/SxxBG75x.exe</p>
 
 ## Tools
+
+(Tools may not link to most up to date stuff, check)
 
 <p><strong>Custom Resolution Utility v1.5.2</strong> - > https://www.monitortests.com/download/cru/cru-1.5.2.zip<br>
 <strong>Scaled Resolution Editor v1.0</strong> - > https://www.monitortests.com/download/sre/sre-1.0.zip<br>
