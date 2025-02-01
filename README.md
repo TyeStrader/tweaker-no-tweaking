@@ -28,21 +28,21 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 (Programs may not link to most up to date stuff, check)
 
-<p><strong>7zip</strong> - > https://www.7-zip.org/a/7z2409-x64.exe<br>
-<strong>Battle.net</strong> - > https://downloader.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe<br>
-<strong>BlackDesert</strong> - > https://naeu-o-dn.playblackdesert.com/UploadData/installer/BlackDesert_Installer_NAEU.exe<br>
-<strong>Deluge</strong> - > https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win64-setup.exe<br>
-<strong>Discord</strong> - > https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64<br>
-<strong>Firefox</strong> - > https://download-installer.cdn.mozilla.net/pub/firefox/releases/134.0.2/win32/en-US/Firefox%20Installer.exe<br>
-<strong>Notepad++</strong> - > https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.6/npp.8.7.6.Installer.x64.exe<br>
-<strong>Powershell 7</strong> - > https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.exe<br>
-<strong>System Informer</strong> - > https://sourceforge.net/projects/systeminformer/files/systeminformer-3.2.25011-release-setup.exe/download<br>
-<strong>Steam</strong> - > https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe<br>
-<strong>Thunderstore Mod Manager</strong> - > https://download.overwolf.com/install/Download?ExtensionId=ahpflogoookodlegojjphcjpjaejgghjnfcdjdmi&utm_source=web_app_store<br>
-<strong>Vencord</strong> - > https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe<br>
-<strong>Wootility</strong> - > https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6</p>
+<p><strong>7zip</strong> - > <a href="https://www.7-zip.org/a/7z2409-x64.exe">Download</a><br>
+<strong>Battle.net</strong> - > <a href="https://downloader.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe">Download</a><br>
+<strong>BlackDesert</strong> - > <a href="https://naeu-o-dn.playblackdesert.com/UploadData/installer/BlackDesert_Installer_NAEU.exe">Download</a><br>
+<strong>Deluge</strong> - > <a href="https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win64-setup.exe">Download</a><br>
+<strong>Discord</strong> - > <a href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64">Download</a><br>
+<strong>Firefox</strong> - > <a href="https://download-installer.cdn.mozilla.net/pub/firefox/releases/134.0.2/win32/en-US/Firefox%20Installer.exe">Download</a><br>
+<strong>Notepad++</strong> - > <a href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.6/npp.8.7.6.Installer.x64.exe">Download</a><br>
+<strong>Powershell 7</strong> - > <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.exe">Download</a><br>
+<strong>System Informer</strong> - > <a href="https://sourceforge.net/projects/systeminformer/files/systeminformer-3.2.25011-release-setup.exe/download">Download</a><br>
+<strong>Steam</strong> - > <a href="https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe">Download</a><br>
+<strong>Thunderstore Mod Manager</strong> - > <a href="https://download.overwolf.com/install/Download?ExtensionId=ahpflogoookodlegojjphcjpjaejgghjnfcdjdmi&utm_source=web_app_store">Download</a><br>
+<strong>Vencord</strong> - > <a href="https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe">Download</a><br>
+<strong>Wootility</strong> - > <a href="https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6">Download</a><br>
 
-<details open>
+<details>
 
 <summary>Research</summary>
 
