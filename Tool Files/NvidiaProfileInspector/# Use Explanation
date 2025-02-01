@@ -2,11 +2,11 @@ Import a global base, custom per-game & software profiles or all three inside th
 
 (Global) Base Profile.nip for a base global setup, otherwise choose which game/software
 
-Software
+-- Software --
 (Global) Base Profile.nip
 Desktop Windows Manager.nip
 
-Games
+-- Games --
 Black Desert.nip
 CoherentUI.nip -- Goes with Black Desert
 Counter-Strike 2.nip
