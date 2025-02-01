@@ -13,8 +13,8 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 > Firmware (Only if needed)
 
-<p><strong>Samsung G7 Firmware</strong> - >  <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=9112067&CDCttType=FM&ModelType=C&ModelName=LS32BG752NNXGO&VPath=FM/202412/20241204145341976/M-B7532GGZA.zip">Download</a> - <em>v1012.0</em><br>
-
+<p><strong>Samsung G7 Firmware File</strong> - >  <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=9112067&CDCttType=FM&ModelType=C&ModelName=LS32BG752NNXGO&VPath=FM/202412/20241204145341976/M-B7532GGZA.zip">Download</a> - <em>v1012.0</em><br>
+<strong>Nvidia GPU Firmware Update Software</strong> - >  <a href="https://us.download.nvidia.com/Windows/uefi/firmware/1.2/NVIDIA_UEFI_Firmware_Updater_1.2-x64.exe">Download</a> - <em>v1.2 - 11/18/2022</em><br>
 
 ## Tools
 
@@ -47,9 +47,10 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 <strong>Vencord</strong> - > <a href="https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe">Download</a><br>
 <strong>Wootility</strong> - > <a href="https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6">Download</a><br>
 
-<details>
+## Research
+<details open>
 
-<summary>Research</summary>
+<summary>Process Mitigations</summary>
 
 # Process Mitigations
 
@@ -67,133 +68,6 @@ the -Force On syntax is to set the override value when doing 'Get-ProcessMitigat
 ```Powershell
 Set-ProcessMitigation -System -Disable DEP, EmulateAtlThunks, SEHOP, ForceRelocateImages, RequireInfo, BottomUp, HighEntropy, StrictHandle, DisableWin32kSystemCalls, AuditSystemCall, DisableExtensionPoints, BlockDynamicCode, AllowThreadsToOptOut, AuditDynamicCode, CFG, SuppressExports, StrictCFG, MicrosoftSignedOnly, AllowStoreSignedBinaries, AuditMicrosoftSigned, AuditStoreSigned, EnforceModuleDependencySigning, DisableNonSystemFonts, AuditFont, BlockRemoteImageLoads, BlockLowLabelImageLoads, PreferSystem32, AuditRemoteImageLoads, AuditLowLabelImageLoads, AuditPreferSystem32, EnableExportAddressFilter, AuditEnableExportAddressFilter, EnableExportAddressFilterPlus, AuditEnableExportAddressFilterPlus, EnableImportAddressFilter, AuditEnableImportAddressFilter, EnableRopStackPivot, AuditEnableRopStackPivot, EnableRopCallerCheck, AuditEnableRopCallerCheck, EnableRopSimExec, AuditEnableRopSimExec, SEHOP, AuditSEHOP, SEHOPTelemetry, TerminateOnError, DisallowChildProcessCreation, AuditChildProcess, UserShadowStack, AuditUserShadowStack, DisableFsctlSystemCalls
 ```
-
- <details>
-## Get-ProcessMitigations -System
-Lets see what output I get.
-
- **Both MitigationOptions & MitigationAuditOptions keys have been removed beforehand**
-
-
-```Powershell
-PS C:\Program Files\PowerShell\7> Get-ProcessMitigation -System
-
-ProcessName                      : System
-Source                           : System Defaults
-Id                               : 0
-
-DEP:
-    Enable                             : NOTSET
-    EmulateAtlThunks                   : NOTSET
-    Override DEP                       : False
-
-ASLR:
-    BottomUp                           : NOTSET
-    Override BottomUp                  : False
-    ForceRelocateImages                : NOTSET
-    RequireInfo                        : NOTSET
-    Override ForceRelocate             : False
-    HighEntropy                        : NOTSET
-    Override High Entropy              : False
-
-StrictHandle:
-    Enable                             : NOTSET
-    Override StrictHandle              : False
-
-System Call:
-    DisableWin32kSystemCalls           : NOTSET
-    Audit                              : NOTSET
-    Override SystemCall                : False
-    DisableFsctlSystemCalls            : NOTSET
-    AuditFsctlSystemCalls              : NOTSET
-    Override FsctlSystemCall           : False
-
-ExtensionPoint:
-    DisableExtensionPoints             : NOTSET
-    Override ExtensionPoint            : False
-
-DynamicCode:
-    BlockDynamicCode                   : NOTSET
-    AllowThreadsToOptOut               : NOTSET
-    Audit                              : NOTSET
-    Override DynamicCode               : False
-
-CFG:
-    Enable                             : NOTSET
-    SuppressExports                    : NOTSET
-    Override CFG                       : False
-    StrictControlFlowGuard             : NOTSET
-    Override StrictCFG                 : False
-
-BinarySignature:
-    MicrosoftSignedOnly                : NOTSET
-    AllowStoreSignedBinaries           : NOTSET
-    EnforceModuleDependencySigning     : NOTSET
-    AuditMicrosoftSignedOnly           : NOTSET
-    AuditStoreSigned                   : NOTSET
-    AuditEnforceModuleDependencySigning: NOTSET
-    Override MicrosoftSignedOnly       : False
-    Override DependencySigning         : False
-
-FontDisable:
-    DisableNonSystemFonts              : NOTSET
-    Audit                              : NOTSET
-    Override FontDisable               : False
-
-ImageLoad:
-    BlockRemoteImageLoads              : NOTSET
-    AuditRemoteImageLoads              : NOTSET
-    Override BlockRemoteImages         : False
-    BlockLowLabelImageLoads            : NOTSET
-    AuditLowLabelImageLoads            : NOTSET
-    Override BlockLowLabel             : False
-    PreferSystem32                     : NOTSET
-    AuditPreferSystem32                : NOTSET
-    Override PreferSystem32            : False
-
-Payload:
-    EnableExportAddressFilter          : NOTSET
-    AuditEnableExportAddressFilter     : NOTSET
-    Override ExportAddressFilter       : False
-    EnableExportAddressFilterPlus      : NOTSET
-    AuditEnableExportAddressFilterPlus : NOTSET
-    Override ExportAddressFilterPlus   : False
-    EAFModules                         : {}
-    EnableImportAddressFilter          : NOTSET
-    AuditEnableImportAddressFilter     : NOTSET
-    Override ImportAddressFilter       : False
-    EnableRopStackPivot                : NOTSET
-    AuditEnableRopStackPivot           : NOTSET
-    Override EnableRopStackPivot       : False
-    EnableRopCallerCheck               : NOTSET
-    AuditEnableRopCallerCheck          : NOTSET
-    Override EnableRopCallerCheck      : False
-    EnableRopSimExec                   : NOTSET
-    AuditEnableRopSimExec              : NOTSET
-    Override EnableRopSimExec          : False
-
-SEHOP:
-    Enable                             : NOTSET
-    TelemetryOnly                      : NOTSET
-    Audit                              : NOTSET
-    Override SEHOP                     : False
-
-Heap:
-    TerminateOnError                   : NOTSET
-    Override HEAP                      : False
-
-Child Process:
-    DisallowChildProcessCreation       : NOTSET
-    Audit                              : NOTSET
-    Override ChildProcess              : False
-
-User Shadow Stack:
-    UserShadowStack                    : NOTSET
-    UserShadowStackStrictMode          : NOTSET
-    AuditUserShadowStack               : NOTSET
-    Override UserShadowStack           : False
-```
- </details>
 </details open>
 
 
