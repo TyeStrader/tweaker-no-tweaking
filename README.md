@@ -51,12 +51,12 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 <strong>Vencord</strong> - > <a href="https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe">Download</a><br>
 <strong>Wootility</strong> - > <a href="https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6">Download</a><br>
 
-## Research
+# Research
 <details open>
 
 <summary>Process Mitigations</summary>
 
-# Process Mitigations
+## Process Mitigations
 
 > HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel
 
