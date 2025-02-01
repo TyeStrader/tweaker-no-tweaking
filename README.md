@@ -4,15 +4,14 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 ## Tools
 
-<p><strong>Custom Resolution Utility 1.5.2</strong><br>
-<strong>Scaled Resolution Editor 1.0</strong><br>
-<strong>NVCleanstall 1.18.0</strong><br>
-<strong>SwitchPowerScheme 1.3</strong><br>
-
-<strong>ProcessExplorer</strong><br>
-<strong>NvidiaProfileInspector</strong><br>
-<strong>DiscordFixer</strong><br>
-<strong>NoSteamWebHelper</strong></p>
+<p><strong>Custom Resolution Utility 1.5.2</strong> - > https://www.monitortests.com/download/cru/cru-1.5.2.zip<br>
+<strong>Scaled Resolution Editor 1.0</strong> - > https://www.monitortests.com/download/sre/sre-1.0.zip<br>
+<strong>NVCleanstall 1.18.0</strong> - > https://us1-dl.techpowerup.com/files/oGj9YPASMSxHZgtoLyn1cQ/1738467820/NVCleanstall_1.18.0.exe<br>
+<strong>SwitchPowerScheme 1.3</strong> - > https://www.sordum.org/files/downloads.php?switch-power-scheme<br>
+<strong>ProcessExplorer</strong> - > https://download.sysinternals.com/files/ProcessExplorer.zip<br>
+<strong>NvidiaProfileInspector</strong> - > https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.8/nvidiaProfileInspector.zip<br>
+<strong>DiscordFixer</strong> - > https://github.com/HerXayah/Discord-Fixer/releases/download/Beta/DiscordFixer.exe<br>
+<strong>NoSteamWebHelper</strong> - > https://github.com/Aetopia/NoSteamWebHelper/releases/download/v5.0.1/umpdc.dll</p>
 
 ## Programs
 
