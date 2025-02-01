@@ -1,4 +1,4 @@
-Import QtTyesUltraLowLatency.pow with this, can use cmd/pwsh but I can't be bothered with how simple this makes it
+Import QtTyesUltraLowLatency.pow from profiles folder, can use cmd/pwsh but I can't be bothered with how simple this makes it
 
 Good for deleting base power profiles
 
