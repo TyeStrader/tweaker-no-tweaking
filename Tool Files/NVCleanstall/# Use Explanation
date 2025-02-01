@@ -2,30 +2,30 @@
 Install best driver for my hardware*
 
 -- 2nd Page --
-Check things below
+Check below
 
 Display Driver (required)
 
 -- 3rd Page --
-Check things below
+Check below
 
 Disable Installer Telemetry & advertising
 Unattended Express Installation & Allow automatic reboot, if needed
 Perform a Clean Installation
--Add Hardware Support 
-  Template: GeForce RTX 3070 [2484] nv_dispi.inf 
-  Id: PCI\VEN_10DE&DEV_2484 
-  Name: NVIDIA Graphics Device RTX 3070
+Add Hardware Support 
+  - > Template: GeForce RTX 3070 [2484] nv_dispi.inf 
+  - > Id: PCI\VEN_10DE&DEV_2484 
+  - > Name: NVIDIA Graphics Device RTX 3070
 Disable Multiplane Overlay (MPO)
 Disable Ansel
--Show Expert Tweaks
-  Disable Driver Telemetry
-  Disable NVIDIA Container
-  Disable NVIDIA HD Audio device sleep timer
--Enable Message Signaled Interrupts
-  Interrupt Policy
-    Specified Processors - Hex Value: 0x4
-  Interrupt Priority: Default
+Show Expert Tweaks
+  - > Disable Driver Telemetry
+  - > Disable NVIDIA Container
+  - > Disable NVIDIA HD Audio device sleep timer
+Enable Message Signaled Interrupts
+  - > Interrupt Policy
+        Specified Processors - Hex Value: 0x4
+  - > Interrupt Priority: Default
 Disable HDCP
 Apply NVENC Video Encoding Session Limit Patch**
 Rebuild digital signature (required for one or more selected tweaks)
