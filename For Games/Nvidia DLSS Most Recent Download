@@ -1,3 +1,11 @@
 Use to get latest version of dlss
-If a game uses 3.0.0.0 and up but not the max version, replace with latest
+If a game uses 3.0.0.0 and up but not the max version, replace with latest file
+If using 2.0.0.0 and up, below 3.0.0.0, replacing file is incompatible
+
+Nvidia v310.2.1 - 2/1/2025
 https://www.techpowerup.com/download/nvidia-dlss-dll/
+
+Replace file in directory (with nvngx_dlss.dll)
+nvngx_dlss.dll
+
+Place dll here - > "C:\Program Files (x86)\Overwatch\_retail_"
