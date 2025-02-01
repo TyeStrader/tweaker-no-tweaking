@@ -11,6 +11,11 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 <strong>XL2546K Driver</strong> - > <a href="https://esupportdownload.benq.com/esupport/ESPORTS%20DISPLAY/Driver/XL2546K/XL2546K_WHQL%20driver_V001_Windows.zip">Download</a> - <em>v001 - 1/3/2022</em><br>
 <strong>Samsung G7 Driver</strong> - > <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=8660949&CDCttType=DR&ModelType=C&ModelName=LS32BG752NNXGO&VPath=DR/202206/20220620100428315/SxxBG75x.exe">Download</a> - <em>v1.0</em><br>
 
+### Firmware
+
+<p><strong>Samsung G7 Firmware</strong> - >  <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=9112067&CDCttType=FM&ModelType=C&ModelName=LS32BG752NNXGO&VPath=FM/202412/20241204145341976/M-B7532GGZA.zip">Download</a> - <em>v1012.0</em><br>
+
+
 ## Tools
 
 (Tools may not link to most up to date stuff, check)
