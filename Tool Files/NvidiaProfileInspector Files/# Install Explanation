@@ -1,0 +1,20 @@
+Import a global base, custom per-game & software profiles or all three
+
+(Global) Base Profile.nip for a base global setup, otherwise choose which game/software
+
+Software
+(Global) Base Profile.nip
+Desktop Windows Manager.nip
+
+Games
+Black Desert.nip
+CoherentUI.nip -- Goes with Black Desert
+Counter-Strike 2.nip
+Grand Theft Auto 4.nip
+Hell Let Loose.nip
+Helldivers 2.nip
+Lethal Company.nip
+Overwatch 2.nip
+Palworld.nip
+Resident Evil 4 (2005).nip
+Sekiro Shadows Die Twice.nip
