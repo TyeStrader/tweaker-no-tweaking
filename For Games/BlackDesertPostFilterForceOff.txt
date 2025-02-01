@@ -1,0 +1,12 @@
+Find and set postFilter to 0
+-Control + F = postFilter
+
+"C:\Users\QtTye\Documents\Black Desert\GameOption.txt"
+
+postFilter = 0
+
+"C:\Users\QtTye\Documents\Black Desert\UserCache\762071\gamevariable.xml"
+
+<PostFilter Value="0"/>
+
+-Do (Find Next) when looking in xml file to make sure you get all 
