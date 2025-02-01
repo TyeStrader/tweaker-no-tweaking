@@ -2,7 +2,19 @@
 
 A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files
 
-# Programs
+## Tools
+
+<p><strong>Custom Resolution Utility 1.5.2</strong><br>
+<strong>Scaled Resolution Editor 1.0</strong><br>
+<strong>NVCleanstall 1.18.0</strong><br>
+<strong>SwitchPowerScheme 1.3</strong><br>
+
+<strong>ProcessExplorer</strong><br>
+<strong>NvidiaProfileInspector</strong><br>
+<strong>DiscordFixer</strong><br>
+<strong>NoSteamWebHelper</strong></p>
+
+## Programs
 
 (Programs may not link to most up to date stuff, check)
 
