@@ -19,6 +19,7 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 ## Tools
 
 (Tools may not link to most up to date stuff, check)
+All folders have a # Use/Install Explanation, read them for help
 
 <p><strong>ProcessExplorer</strong> - > <a href="https://download.sysinternals.com/files/ProcessExplorer.zip">Download</a> - <em>v1.2 - 5/28/2024</em><br>
 <strong>NVCleanstall</strong> - > <a href="https://us1-dl.techpowerup.com/files/oGj9YPASMSxHZgtoLyn1cQ/1738467820/NVCleanstall_1.18.0.exe">Download</a> - <em>v1.80.0 - 1/25/2025</em><br>
