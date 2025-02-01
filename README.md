@@ -44,9 +44,9 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 <details open>
 
-<summary>Process Mitigations</summary>
+<summary>Research</summary>
 
-# Research
+# Process Mitigations
 
 > HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel
 
