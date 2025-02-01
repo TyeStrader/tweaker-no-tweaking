@@ -1,0 +1,5 @@
+Import QtTyesUltraLowLatency.pow with this, can use cmd/pwsh but I can't be bothered with how simple this makes it
+
+Good for deleting base power profiles
+
+Make sure to close out of tray when finished an closing out, otherwise keeps process running
