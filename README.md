@@ -1,5 +1,5 @@
 # What this 
-
+### For personal use, what you do with this stuff is on you
 A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files
 
 ## Drivers
