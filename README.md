@@ -20,14 +20,17 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 (Tools may not link to most up to date stuff, check)
 
-<p><strong>Custom Resolution Utility v1.5.2</strong> - > <a href="https://www.monitortests.com/download/cru/cru-1.5.2.zip">Download</a><br>
-<strong>Scaled Resolution Editor v1.0</strong> - > <a href="https://www.monitortests.com/download/sre/sre-1.0.zip">Download</a><br>
-<strong>NVCleanstall v1.18.0</strong> - > <a href="https://us1-dl.techpowerup.com/files/oGj9YPASMSxHZgtoLyn1cQ/1738467820/NVCleanstall_1.18.0.exe">Download</a><br>
-<strong>SwitchPowerScheme v1.3</strong> - > <a href="https://www.sordum.org/files/downloads.php?switch-power-scheme">Download</a><br>
-<strong>ProcessExplorer</strong> - > <a href="https://download.sysinternals.com/files/ProcessExplorer.zip">Download</a><br>
-<strong>NvidiaProfileInspector</strong> - > <a href="https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.8/nvidiaProfileInspector.zip">Download</a><br>
-<strong>DiscordFixer</strong> - > <a href="https://github.com/HerXayah/Discord-Fixer/releases/download/Beta/DiscordFixer.exe">Download</a><br>
-<strong>NoSteamWebHelper</strong> - > <a href="https://github.com/Aetopia/NoSteamWebHelper/releases/download/v5.0.1/umpdc.dll">Download</a></p>
+<p><strong>ProcessExplorer</strong> - > <a href="https://download.sysinternals.com/files/ProcessExplorer.zip">Download</a> - <em>v1.2 - 5/28/2024</em><br>
+<strong>NVCleanstall</strong> - > <a href="https://us1-dl.techpowerup.com/files/oGj9YPASMSxHZgtoLyn1cQ/1738467820/NVCleanstall_1.18.0.exe">Download</a> - <em>v1.80.0 - 1/25/2025</em><br>
+<strong>NvidiaProfileInspector</strong> - > <a href="https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.8/nvidiaProfileInspector.zip">Download</a> - <em>v2.4.0.8 - 1/26/2025</em><br>
+<strong>Custom Resolution Utility</strong> - > <a href="https://www.monitortests.com/download/cru/cru-1.5.2.zip">Download</a> - <em>v1.5.2 - 7/5/2024</em><br>
+
+> Optional
+
+<strong>DiscordFixer</strong> - > <a href="https://github.com/HerXayah/Discord-Fixer/releases/download/Beta/DiscordFixer.exe">Download</a> - <em>1/22/2024</em><br>
+<strong>NoSteamWebHelper</strong> - > <a href="https://github.com/Aetopia/NoSteamWebHelper/releases/download/v5.0.1/umpdc.dll">Download</a> - <em>v5.0.1 - 12/1/2024</em><br>
+<strong>Scaled Resolution Editor</strong> - > <a href="https://www.monitortests.com/download/sre/sre-1.0.zip">Download</a> - <em>v1.0 - 1/15/2024</em><br>
+<strong>SwitchPowerScheme</strong> - > <a href="https://www.sordum.org/files/downloads.php?switch-power-scheme">Download</a> - <em>v1.3 - 6/11/2021</em><br>
 
 ## Programs
 
