@@ -6,18 +6,18 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 
 (Programs may not link to most up to date stuff, check)
 
-7zip - https://www.7-zip.org/a/7z2409-x64.exe
-Battle.net - https://downloader.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe
-Deluge - https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win64-setup.exe
-Discord - https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64
-Firefox - https://download-installer.cdn.mozilla.net/pub/firefox/releases/134.0.2/win32/en-US/Firefox%20Installer.exe
-Notepad++ - https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.6/npp.8.7.6.Installer.x64.exe
-Powershell 7 - https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.exe
-System Informer - https://sourceforge.net/projects/systeminformer/files/systeminformer-3.2.25011-release-setup.exe/download
-Steam - https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe
-Thunderstore Mod Manager - https://download.overwolf.com/install/Download?ExtensionId=ahpflogoookodlegojjphcjpjaejgghjnfcdjdmi&utm_source=web_app_store
-Vencord - https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe
-https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6
+<p>7zip - https://www.7-zip.org/a/7z2409-x64.exe<br>
+Battle.net - https://downloader.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe<br>
+Deluge - https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win64-setup.exe<br>
+Discord - https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64<br>
+Firefox - https://download-installer.cdn.mozilla.net/pub/firefox/releases/134.0.2/win32/en-US/Firefox%20Installer.exe<br>
+Notepad++ - https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.6/npp.8.7.6.Installer.x64.exe<br>
+Powershell 7 - https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.exe<br>
+System Informer - https://sourceforge.net/projects/systeminformer/files/systeminformer-3.2.25011-release-setup.exe/download<br>
+Steam - https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe<br>
+Thunderstore Mod Manager - https://download.overwolf.com/install/Download?ExtensionId=ahpflogoookodlegojjphcjpjaejgghjnfcdjdmi&utm_source=web_app_store<br>
+Vencord - https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe<br>
+Wootility - https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6</p>
 
 <details open>
 
