@@ -72,6 +72,59 @@ the -Force On syntax is to set the override value when doing 'Get-ProcessMitigat
 ```Powershell
 Set-ProcessMitigation -System -Disable DEP, EmulateAtlThunks, SEHOP, ForceRelocateImages, RequireInfo, BottomUp, HighEntropy, StrictHandle, DisableWin32kSystemCalls, AuditSystemCall, DisableExtensionPoints, BlockDynamicCode, AllowThreadsToOptOut, AuditDynamicCode, CFG, SuppressExports, StrictCFG, MicrosoftSignedOnly, AllowStoreSignedBinaries, AuditMicrosoftSigned, AuditStoreSigned, EnforceModuleDependencySigning, DisableNonSystemFonts, AuditFont, BlockRemoteImageLoads, BlockLowLabelImageLoads, PreferSystem32, AuditRemoteImageLoads, AuditLowLabelImageLoads, AuditPreferSystem32, EnableExportAddressFilter, AuditEnableExportAddressFilter, EnableExportAddressFilterPlus, AuditEnableExportAddressFilterPlus, EnableImportAddressFilter, AuditEnableImportAddressFilter, EnableRopStackPivot, AuditEnableRopStackPivot, EnableRopCallerCheck, AuditEnableRopCallerCheck, EnableRopSimExec, AuditEnableRopSimExec, SEHOP, AuditSEHOP, SEHOPTelemetry, TerminateOnError, DisallowChildProcessCreation, AuditChildProcess, UserShadowStack, AuditUserShadowStack, DisableFsctlSystemCalls
 ```
+
+## Bcdedit Options
+
+Messing with your bcdedit options can make it so a majority of anti-cheats won't work, causing games to be unplayable, heres a safe tested list
+
+Anti-Cheats tested on > nProtect, Easy-Anti-Cheat, XignCode
+
+<strong>-- Safe for Anti-Cheats --</strong>
+
+bcdedit /set disabledynamictick Yes<br>
+bcdedit /set nolowmem Yes<br>
+bcdedit /set novga Yes<br>
+bcdedit /set useplatformtick Yes<br>
+bcdedit /set bootlog No<br>
+bcdedit /set event No<br>
+bcdedit /set forcelegacyplatform No<br>
+bcdedit /set halbreakpoint No<br>
+bcdedit /set hypervisordebug No<br>
+bcdedit /set isolatedcontext No<br>
+bcdedit /set usefirmwarepcisettings No<br>
+bcdedit /set uselegacyapicmode No<br>
+bcdedit /set usephysicaldestination No<br>
+bcdedit /set vga No<br>
+bcdedit /set vm No<br>
+bcdedit /set configaccesspolicy Default<br>
+bcdedit /set msi Default<br>
+bcdedit /set x2apicpolicy Enabled<br>
+bcdedit /set linearaddress57 optout<br>
+bcdedit /set bootux Disabled<br>
+bcdedit /set tpmbootentropy ForceDisable<br>
+bcdedit /set nx AlwaysOff<br>
+bcdedit /set bootmenupolicy Legacy<br>
+bcdedit /set tscsyncpolicy Legacy<br>
+bcdedit /set firstmegabytepolicy UseAll<br>
+bcdedit /set allowedinmemorysettings 0x0<br>
+bcdedit /set avoidlowmemory 0x8000000<br>
+bcdedit /set increaseuserva 268435328<br>
+
+
+<strong>-- Not Safe for Anti-Cheats --</strong>
+
+bcdedit /set bootdebug No<br>
+bcdedit /set debug No<br>
+bcdedit /set vsmlaunchtype No<br>
+bcdedit /set hypervisorlaunchtype No<br>
+bcdedit /set disableelamdrivers Yes<br>
+
+<strong>-- Unsure, Still Testing --</strong>
+
+bcdedit /set nointegritychecks On<br>
+bcdedit /set testsigning On<br>
+bcdedit /set tscsyncpolicy Enhanced<br>
+
 </details open>
 
 
