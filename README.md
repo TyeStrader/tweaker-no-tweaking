@@ -106,7 +106,6 @@ bcdedit /set bootux Disabled<br>
 bcdedit /set tpmbootentropy ForceDisable<br>
 bcdedit /set nx AlwaysOff<br>
 bcdedit /set bootmenupolicy Legacy<br>
-bcdedit /set tscsyncpolicy Legacy<br>
 bcdedit /set firstmegabytepolicy UseAll<br>
 bcdedit /set allowedinmemorysettings 0x0<br>
 bcdedit /set avoidlowmemory 0x8000000<br>
@@ -123,7 +122,7 @@ bcdedit /set vsmlaunchtype No<br>
 bcdedit /set pae ForceDisable<br>
 bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS<br>
 
-<strong>-- Unsure, Still Testing --</strong>
+<strong>-- Unsure on Results, Testing Between the Two --</strong>
 
 bcdedit /set tscsyncpolicy Enhanced<br>
 Or<br>
