@@ -82,6 +82,7 @@ Anti-Cheats tested on > nProtect, Easy-Anti-Cheat, XignCode
 <strong>-- Safe for Anti-Cheats --</strong>
 
 bcdedit /set disabledynamictick Yes<br>
+bcdedit /set nointegritychecks Yes<br>
 bcdedit /set nolowmem Yes<br>
 bcdedit /set novga Yes<br>
 bcdedit /set useplatformtick Yes<br>
@@ -122,7 +123,6 @@ bcdedit /set pae ForceDisable<br>
 
 <strong>-- Unsure, Still Testing --</strong>
 
-bcdedit /set nointegritychecks On<br>
 bcdedit /set testsigning On<br>
 bcdedit /set tscsyncpolicy Enhanced<br>
 
