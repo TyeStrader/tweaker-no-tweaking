@@ -121,6 +121,7 @@ bcdedit /set disableelamdrivers Yes<br>
 
 <strong>-- Unsure, Still Testing --</strong>
 
+bcdedit /set pae ForceDisable<br>
 bcdedit /set nointegritychecks On<br>
 bcdedit /set testsigning On<br>
 bcdedit /set tscsyncpolicy Enhanced<br>
