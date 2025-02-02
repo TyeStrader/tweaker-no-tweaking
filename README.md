@@ -123,6 +123,7 @@ bcdedit /set pae ForceDisable<br>
 
 <strong>-- Unsure, Still Testing --</strong>
 
+bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS<br>
 bcdedit /set testsigning On<br>
 bcdedit /set tscsyncpolicy Enhanced<br>
 
