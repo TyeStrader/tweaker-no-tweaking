@@ -125,7 +125,10 @@ bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS<br>
 <strong>-- Unsure, Still Testing --</strong>
 
 bcdedit /set testsigning On<br>
+
 bcdedit /set tscsyncpolicy Enhanced<br>
+Or<br>
+bcdedit /set tscsyncpolicy Legacy<br>
 
 </details open>
 
