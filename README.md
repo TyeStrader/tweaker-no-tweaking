@@ -122,7 +122,7 @@ bcdedit /set vsmlaunchtype No<br>
 bcdedit /set pae ForceDisable<br>
 bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS<br>
 
-<strong>-- Unsure on Results, Testing Between the Two --</strong>
+<strong>-- Works with Anti-Cheat. Unsure on Results, Testing Between the Two --</strong>
 
 bcdedit /set tscsyncpolicy Enhanced<br>
 Or<br>
