@@ -116,6 +116,7 @@ bcdedit /set increaseuserva 268435328<br>
 <strong>-- Not Safe for Anti-Cheats --</strong>
 
 bcdedit /set disableelamdrivers Yes<br>
+bcdedit /set testsigning Yes<br>
 bcdedit /set debug No<br>
 bcdedit /set hypervisorlaunchtype No<br>
 bcdedit /set vsmlaunchtype No<br>
@@ -123,8 +124,6 @@ bcdedit /set pae ForceDisable<br>
 bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS<br>
 
 <strong>-- Unsure, Still Testing --</strong>
-
-bcdedit /set testsigning On<br>
 
 bcdedit /set tscsyncpolicy Enhanced<br>
 Or<br>
