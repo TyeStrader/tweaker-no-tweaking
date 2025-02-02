@@ -21,7 +21,7 @@ A place for me to log my thoughts an explore the universe of tweaks, skizo shit 
 (Tools may not link to most up to date stuff, check)<br>
 All folders have a <strong><em># Use/Install Explanation</em></strong>, read them for help
 
-<p><strong>ProcessExplorer</strong> - > <a href="https://download.sysinternals.com/files/ProcessExplorer.zip">Download</a> - <em>v1.2 - 5/28/2024</em><br>
+<p><strong>ProcessExplorer</strong> - > <a href="https://download.sysinternals.com/files/ProcessExplorer.zip">Download</a> - <em>5/28/2024</em><br>
 <strong>NVCleanstall</strong> - > <a href="https://us1-dl.techpowerup.com/files/oGj9YPASMSxHZgtoLyn1cQ/1738467820/NVCleanstall_1.18.0.exe">Download</a> - <em>v1.80.0 - 1/25/2025</em><br>
 <strong>NvidiaProfileInspector</strong> - > <a href="https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.8/nvidiaProfileInspector.zip">Download</a> - <em>v2.4.0.8 - 1/26/2025</em><br>
 
