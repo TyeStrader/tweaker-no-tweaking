@@ -36,4 +36,4 @@ Rebuild digital signature (required for one or more selected tweaks)
 Build a package if you want to create a backup, otherwise install
 
 *When selecting best driver for your hardware, sometimes the NVENC video encoding session limit patch won't be out yet, meaning it'll just be blank. Uncheck the Apply NVENC Video Encoding Session if so
-**NVENC Video Encoding Session sometimes is behind on the patch, you can either skip out on using it or using a previous driver version thats patched
+**NVENC Video Encoding Session sometimes is behind on the patch, you can either skip out on using it or use a previous driver version thats patched
