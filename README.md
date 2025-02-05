@@ -1,6 +1,12 @@
 # What this 
 ### For personal use, what you do with this stuff is on you
-A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files
+
+> [!WARNING]
+> A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files<br>
+>
+> 🔒 Some changes outlined in the table below may negatively impact security. Users should assess the security risk involved with modifying the mentioned setting.<br>
+>
+> Continue at your own risk.
 
 ## Drivers
 
@@ -53,13 +59,15 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 
 # Research
 
-These are tested on *MY* system, a specific configuration of hardware/software. What I did may not produce the results you may get. I cannot gureentee anything other then the stuff I test on my own system, these are just my findings.
+> [!IMPORTANT]
+> These are tested on *MY* system, a specific configuration of hardware/software. What I did may not produce the results you may get. I cannot gureentee anything other then the stuff I test on my own system, these are just my findings.
 
->## Bcdedit Options
+## Bcdedit Options
 
-Messing with your bcdedit options can make it so a majority of anti-cheats won't work, causing games to be unplayable, heres a safe tested list
+> [!WARNING]
+> Messing with your bcdedit options can make it so a majority of anti-cheats won't work, causing games to be unplayable, heres my safe tested list
 
-Anti-Cheats tested on > nProtect, Easy-Anti-Cheat, XignCode
+  - Anti-Cheats tested on > nProtect, Easy-Anti-Cheat, XignCode
 
 <strong>-- Safe for Anti-Cheats --</strong>
 
@@ -123,9 +131,13 @@ Another discovery is that if I used -Force On at the end of 'Set-ProcessMitigati
 the -Force On syntax is to set the override value when doing 'Get-ProcessMitigation -System'
 
 
-```Powershell
+```powershell
 Set-ProcessMitigation -System -Disable DEP, EmulateAtlThunks, SEHOP, ForceRelocateImages, RequireInfo, BottomUp, HighEntropy, StrictHandle, DisableWin32kSystemCalls, AuditSystemCall, DisableExtensionPoints, BlockDynamicCode, AllowThreadsToOptOut, AuditDynamicCode, CFG, SuppressExports, StrictCFG, MicrosoftSignedOnly, AllowStoreSignedBinaries, AuditMicrosoftSigned, AuditStoreSigned, EnforceModuleDependencySigning, DisableNonSystemFonts, AuditFont, BlockRemoteImageLoads, BlockLowLabelImageLoads, PreferSystem32, AuditRemoteImageLoads, AuditLowLabelImageLoads, AuditPreferSystem32, EnableExportAddressFilter, AuditEnableExportAddressFilter, EnableExportAddressFilterPlus, AuditEnableExportAddressFilterPlus, EnableImportAddressFilter, AuditEnableImportAddressFilter, EnableRopStackPivot, AuditEnableRopStackPivot, EnableRopCallerCheck, AuditEnableRopCallerCheck, EnableRopSimExec, AuditEnableRopSimExec, SEHOP, AuditSEHOP, SEHOPTelemetry, TerminateOnError, DisallowChildProcessCreation, AuditChildProcess, UserShadowStack, AuditUserShadowStack, DisableFsctlSystemCalls
 ```
+<br>
+
+
+
 
 
 
