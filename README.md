@@ -77,52 +77,53 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 
 <strong>-- Safe for Anti-Cheats --</strong>
 
-bcdedit /set disabledynamictick Yes<br>
-bcdedit /set nointegritychecks Yes<br>
-bcdedit /set nolowmem Yes<br>
-bcdedit /set novga Yes<br>
-bcdedit /set useplatformtick Yes<br>
-bcdedit /set bootdebug No<br>
-bcdedit /set bootlog No<br>
-bcdedit /set event No<br>
-bcdedit /set forcelegacyplatform No<br>
-bcdedit /set halbreakpoint No<br>
-bcdedit /set hypervisordebug No<br>
-bcdedit /set isolatedcontext No<br>
-bcdedit /set usefirmwarepcisettings No<br>
-bcdedit /set uselegacyapicmode No<br>
-bcdedit /set usephysicaldestination No<br>
-bcdedit /set vga No<br>
-bcdedit /set vm No<br>
-bcdedit /set configaccesspolicy Default<br>
-bcdedit /set msi Default<br>
-bcdedit /set x2apicpolicy Enabled<br>
-bcdedit /set linearaddress57 optout<br>
-bcdedit /set bootux Disabled<br>
-bcdedit /set tpmbootentropy ForceDisable<br>
-bcdedit /set nx AlwaysOff<br>
-bcdedit /set bootmenupolicy Legacy<br>
-bcdedit /set firstmegabytepolicy UseAll<br>
-bcdedit /set allowedinmemorysettings 0x0<br>
-bcdedit /set avoidlowmemory 0x8000000<br>
-bcdedit /set increaseuserva 268435328<br>
+
+`bcdedit /set disabledynamictick Yes`<br>
+`bcdedit /set nointegritychecks Yes`<br>
+`bcdedit /set nolowmem Yes`<br>
+`bcdedit /set novga Yes`<br>
+`bcdedit /set useplatformtick Yes`<br>
+`bcdedit /set bootdebug No`<br>
+`bcdedit /set bootlog No`<br>
+`bcdedit /set event No`<br>
+`bcdedit /set forcelegacyplatform No`<br>
+`bcdedit /set halbreakpoint No`<br>
+`bcdedit /set hypervisordebug No`<br>
+`bcdedit /set isolatedcontext No`<br>
+`bcdedit /set usefirmwarepcisettings No`<br>
+`bcdedit /set uselegacyapicmode No`<br>
+`bcdedit /set usephysicaldestination No`<br>
+`bcdedit /set vga No`<br>
+`bcdedit /set vm No`<br>
+`bcdedit /set configaccesspolicy Default`<br>
+`bcdedit /set msi Default`<br>
+`bcdedit /set x2apicpolicy Enabled`<br>
+`bcdedit /set linearaddress57 optout`<br>
+`bcdedit /set bootux Disabled`<br>
+`bcdedit /set tpmbootentropy ForceDisable`<br>
+`bcdedit /set nx AlwaysOff`<br>
+`bcdedit /set bootmenupolicy Legacy`<br>
+`bcdedit /set firstmegabytepolicy UseAll`<br>
+`bcdedit /set allowedinmemorysettings 0x0`<br>
+`bcdedit /set avoidlowmemory 0x8000000`<br>
+`bcdedit /set increaseuserva 268435328`<br>
 
 
 <strong>-- Not Safe for Anti-Cheats --</strong>
 
-bcdedit /set disableelamdrivers Yes<br>
-bcdedit /set testsigning Yes<br>
-bcdedit /set debug No<br>
-bcdedit /set hypervisorlaunchtype No<br>
-bcdedit /set vsmlaunchtype No<br>
-bcdedit /set pae ForceDisable<br>
-bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS<br>
+`bcdedit /set disableelamdrivers Yes`<br>
+`bcdedit /set testsigning Yes`<br>
+`bcdedit /set debug No`<br>
+`bcdedit /set hypervisorlaunchtype No`<br>
+`bcdedit /set vsmlaunchtype No`<br>
+`bcdedit /set pae ForceDisable`<br>
+`bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS`<br>
 
 <strong>-- Works with Anti-Cheat. Unsure on Results, Testing Between the Two --</strong>
 
-bcdedit /set tscsyncpolicy Enhanced<br>
+`bcdedit /set tscsyncpolicy Enhanced`<br>
 Or<br>
-bcdedit /set tscsyncpolicy Legacy<br>
+`bcdedit /set tscsyncpolicy Legacy`<br>
 
 >## Process Mitigations<br>
 
@@ -131,10 +132,9 @@ bcdedit /set tscsyncpolicy Legacy<br>
 - *MitigationOptions*  
 - *MitigationAuditOptions*
 
-Using the mask 222222222222222222222222222222222222222222222222 for MitigationOptions might not actually disable them, using (powershell) 'Get-ProcessMitigation -Name discord.exe -RunningProcess' returned that both CFG and ASLR high/bottom was enabled, with process explorer also confirming this. Instead I took a look at what mask is set when using 'Set-ProcessMitigation -System -Disable  <big block of values from microsoft website>' an it returned 222222222222222220020000002000200000002000000000. After a restart, running the Get-ProcessMitigation command for discord now shows that ASLR and CFG is disabled, with process explorer also confirming. This isn't limited to just discord, I checked steam an a couple games with the same results
+Using the mask 222222222222222222222222222222222222222222222222 for MitigationOptions might not actually disable them, using (powershell) `Get-ProcessMitigation -Name discord.exe -RunningProcess` returned that both CFG and ASLR high/bottom was enabled, with process explorer also confirming this. Instead I took a look at what mask is set when using `Set-ProcessMitigation -System -Disable  <big block of values from microsoft website>` an it returned 222222222222222220020000002000200000002000000000. After a restart, running the `Get-ProcessMitigation` command for discord now shows that ASLR and CFG is disabled, with process explorer also confirming. This isn't limited to just discord, I checked steam an a couple games with the same results
 
-Another discovery is that if I used -Force On at the end of 'Set-ProcessMitigation -System -Disable <values>' it instead set the mask as 666666666666666660060000006000600000006000000000, which overrides mitigations completely at a system level but made some apps loop opening an closing child processes causing high cpu usage (discord, steam) The reason I can find for this is because apps override some mitigations for its children, for example a value of 2 signals that it should be disabled, but itll allow it if necessary. A value of 6 completely disallows this, causing those child processes to break
-the -Force On syntax is to set the override value when doing 'Get-ProcessMitigation -System'
+Another discovery is that if I used -Force On at the end of `Set-ProcessMitigation -System -Disable <values>` it instead set the mask as 666666666666666660060000006000600000006000000000, which overrides mitigations completely at a system level but made some apps loop opening an closing child processes causing high cpu usage (discord, steam) The reason I can find for this is because apps override some mitigations for its children, for example a value of 2 signals that it should be disabled, but itll allow it if necessary. A value of 6 completely disallows this, causing those child processes to break. The `-Force` On syntax is to set the override value when doing `Get-ProcessMitigation -System`
 
 
 ```powershell
