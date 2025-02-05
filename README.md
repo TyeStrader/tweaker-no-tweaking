@@ -53,9 +53,9 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 
 # Research
 
-These are tested on **MY** system, a specific configuration of hardware/software. What I did may not produce the results you may get. I cannot gureentee anything other then the stuff I test on my own system, these are just my findings.
+These are tested on *MY* system, a specific configuration of hardware/software. What I did may not produce the results you may get. I cannot gureentee anything other then the stuff I test on my own system, these are just my findings.
 
-## Bcdedit Options
+>## Bcdedit Options
 
 Messing with your bcdedit options can make it so a majority of anti-cheats won't work, causing games to be unplayable, heres a safe tested list
 
@@ -110,14 +110,12 @@ bcdedit /set tscsyncpolicy Enhanced<br>
 Or<br>
 bcdedit /set tscsyncpolicy Legacy<br>
 
-<summary>Process Mitigations</summary>
+>## Process Mitigations<br>
 
-## Process Mitigations
+**HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel**<br>
 
-> HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel
-
-  *MitigationOptions*  
-  *MitigationAuditOptions*
+>> *MitigationOptions*  
+>> *MitigationAuditOptions*
 
 Using the mask 222222222222222222222222222222222222222222222222 for MitigationOptions might not actually disable them, using (powershell) 'Get-ProcessMitigation -Name discord.exe -RunningProcess' returned that both CFG and ASLR high/bottom was enabled, with process explorer also confirming this. Instead I took a look at what mask is set when using 'Set-ProcessMitigation -System -Disable  <big block of values from microsoft website>' an it returned 222222222222222220020000002000200000002000000000. After a restart, running the Get-ProcessMitigation command for discord now shows that ASLR and CFG is disabled, with process explorer also confirming. This isn't limited to just discord, I checked steam an a couple games with the same results
 
