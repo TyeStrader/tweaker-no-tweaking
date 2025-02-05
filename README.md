@@ -8,6 +8,10 @@
 >
 > Continue at your own risk.
 
+`Drivers, Tools, Programs`
+
+<details><br>
+  
 ## Drivers
 
 (Driver may not link to most up to date stuff, check)
@@ -56,6 +60,8 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 <strong>Thunderstore Mod Manager</strong> - > <a href="https://download.overwolf.com/install/Download?ExtensionId=ahpflogoookodlegojjphcjpjaejgghjnfcdjdmi&utm_source=web_app_store">Download</a><br>
 <strong>Vencord</strong> - > <a href="https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe">Download</a><br>
 <strong>Wootility</strong> - > <a href="https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6">Download</a><br>
+
+</details><br>
 
 # Research
 
