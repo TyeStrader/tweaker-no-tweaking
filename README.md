@@ -26,13 +26,42 @@
   
 ## Drivers
 
+$\color{orange}\textsf{{Links possibly out of date, check}}$
 
-(Driver may not link to most up to date stuff, check)
-
-<p><strong>Nvidia GPU Driver</strong> - >  <a href="https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe">Download</a> - <em>v572.16 - 1/30/2025</em><br>
-<strong>Realtek Ethernet Driver</strong> - >  <a href="https://www.realtek.com/Download/ToDownload?type=direct&downloadid=4342">Download</a> - <em>v1125.021 - 12/24/2024</em><br>
-<strong>XL2546K Driver</strong> - > <a href="https://esupportdownload.benq.com/esupport/ESPORTS%20DISPLAY/Driver/XL2546K/XL2546K_WHQL%20driver_V001_Windows.zip">Download</a> - <em>v001 - 1/3/2022</em><br>
-<strong>Samsung G7 Driver</strong> - > <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=8660949&CDCttType=DR&ModelType=C&ModelName=LS32BG752NNXGO&VPath=DR/202206/20220620100428315/SxxBG75x.exe">Download</a> - <em>v1.0</em><br>
+<body>  
+<table>
+  <tr>
+    <th>Driver</th>
+    <th>Link</a></th>
+    <th>Verison</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Nvidia GPU Driver</td>
+    <td><a href="https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe">Download</a></td>
+    <td>v572.16</td>
+    <td>1/30/2025</td>
+  </tr>
+  <tr>
+    <td>Realtek Ethernet Driver</td>
+    <td><a href="https://www.realtek.com/Download/ToDownload?type=direct&downloadid=4342">Download</a></td>
+    <td>v1125.021</td>
+    <td>12/24/2024</td>
+  </tr>
+  <tr>
+    <td>XL2546K Driver</td>
+    <td><a href="https://esupportdownload.benq.com/esupport/ESPORTS%20DISPLAY/Driver/XL2546K/XL2546K_WHQL%20driver_V001_Windows.zip">Download</a></td>
+    <td>v001</td>
+    <td>1/3/2022</td>
+  </tr>
+  <tr>
+    <td>Samsung G7 Driver</td>
+    <td><a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=8660949&CDCttType=DR&ModelType=C&ModelName=LS32BG752NNXGO&VPath=DR/202206/20220620100428315/SxxBG75x.exe">Download</a></td>
+    <td>v1.0</td>
+    <td></td>
+  </tr>
+</table>
+</body>
 
 > Firmware (Only if needed)
 
@@ -195,45 +224,7 @@ Just dropping these here for now
 > [!CAUTION]
 > Negative potential consequences of an action.
 
-<body>
 
-<h2>Drivers</h2>
-
-<table>
-    <tr>
-    <th>Driver</th>
-    <th>Link</a></th>
-    <th>Verison</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>Nvidia GPU Driver</td>
-    <td><a href="https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe">Download</a></td>
-    <td>v572.16</td>
-    <td>1/30/2025</td>
-  </tr>
-  <tr>
-    <td>Realtek Ethernet Driver</td>
-    <td><a href="https://www.realtek.com/Download/ToDownload?type=direct&downloadid=4342">Download</a></td>
-    <td>v1125.021</td>
-    <td>12/24/2024</td>
-  </tr>
-  <tr>
-    <td>XL2546K Driver</td>
-    <td><a href="https://esupportdownload.benq.com/esupport/ESPORTS%20DISPLAY/Driver/XL2546K/XL2546K_WHQL%20driver_V001_Windows.zip">Download</a></td>
-    <td>v001</td>
-    <td>1/3/2022</td>
-  </tr>
-  <tr>
-    <td>Samsung G7 Driver</td>
-    <td><a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=8660949&CDCttType=DR&ModelType=C&ModelName=LS32BG752NNXGO&VPath=DR/202206/20220620100428315/SxxBG75x.exe">Download</a></td>
-    <td>v1.0</td>
-    <td></td>
-  </tr>
-</table>
-
-</body>
-</html>
 
 
 
