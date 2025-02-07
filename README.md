@@ -93,6 +93,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 `bcdedit /set usefirmwarepcisettings No`<br>
 `bcdedit /set uselegacyapicmode No`<br>
 `bcdedit /set usephysicaldestination No`<br>
+`bcdedit /set useplatformclock No`<br>
 `bcdedit /set vga No`<br>
 `bcdedit /set vm No`<br>
 `bcdedit /set configaccesspolicy Default`<br>
