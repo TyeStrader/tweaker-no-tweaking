@@ -1,11 +1,19 @@
-Use to get latest version of dlss
-If a game uses 3.0.0.0 and up but not the max version, replace with latest file
-If using 2.0.0.0 and up, but below 3.0.0.0, replacing file is incompatible
+Latest version of dlss
 
-Nvidia v310.2.1 - 2/1/2025
-https://www.techpowerup.com/download/nvidia-dlss-dll/
+- > https://www.techpowerup.com/download/nvidia-dlss-dll/
 
-Replace file in directory (with nvngx_dlss.dll)
-nvngx_dlss.dll
+Be sure to backup your original file before replacing it. DLSS 2.x files are not interchangable with DLSS 1.x versions.
 
-Place dll here - > "C:\Program Files (x86)\Overwatch\_retail_"
+=========================================================================================================================================================================================================
+
+It is possible for game modders to "upgrade" the DLSS version of many games, simply by replacing its nvngx_dlss.dll with a newer version, which you can download on this page.
+
+Go to your game's folder, looks for a file "nvngx_dlss.dll", and overwrite it with the downloaded file.
+
+All files are digitally signed with NVIDIA's signature, so you can be sure they are unaltered.
+
+=========================================================================================================================================================================================================
+
+-- I'll list down the exact paths I use for personal reference --
+
+"C:\Program Files (x86)\Overwatch\_retail_"
