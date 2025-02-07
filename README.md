@@ -3,7 +3,7 @@
 > [!CAUTION]
 > A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, or maybe it'll end up that way, who knows.
 >
-> Some changes outlined below ***WILL*** negatively impact security an you ***WILL*** lose out on a lot of functionality if not careful. I ever get around to actually listing out all the stuff I do.
+> Some changes outlined below ***WILL*** negatively impact security an you ***WILL*** lose out on a lot of functionality if not careful. If I ever get around to actually listing out all the stuff I do.
 >
 > That being said, continue on your never ending journey of maxing performance. I'll be soft on your heels king <span style='font-size:100px;'>&#9818;</span>
 
