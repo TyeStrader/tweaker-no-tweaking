@@ -1,5 +1,5 @@
 # What this 
-### For personal use, what you do with this stuff is on you
+## For personal use, what you do with this stuff is on you
 
 > [!WARNING]
 > A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files<br>
@@ -12,7 +12,7 @@
 
 <details><br>
   
-## Drivers
+### Drivers
 
 (Driver may not link to most up to date stuff, check)
 
@@ -26,7 +26,7 @@
 <p><strong>Samsung G7 Firmware File</strong> - >  <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=9112067&CDCttType=FM&ModelType=C&ModelName=LS32BG752NNXGO&VPath=FM/202412/20241204145341976/M-B7532GGZA.zip">Download</a> - <em>v1012.0</em><br>
 <strong>Nvidia GPU Firmware Update Software</strong> - >  <a href="https://us.download.nvidia.com/Windows/uefi/firmware/1.2/NVIDIA_UEFI_Firmware_Updater_1.2-x64.exe">Download</a> - <em>v1.2 - 11/18/2022</em><br>
 
-## Tools
+### Tools
 
 (Tools may not link to most up to date stuff, check)<br>
 All folders have a <strong><em># Use/Install Explanation</em></strong>, read them for help
@@ -43,7 +43,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 <strong>Scaled Resolution Editor</strong> - > <a href="https://www.monitortests.com/download/sre/sre-1.0.zip">Download</a> - <em>v1.0 - 1/15/2024</em><br>
 <strong>SwitchPowerScheme</strong> - > <a href="https://www.sordum.org/files/downloads.php?switch-power-scheme">Download</a> - <em>v1.3 - 6/11/2021</em><br>
 
-## Programs
+### Programs
 
 (Programs may not link to most up to date stuff, check)
 
@@ -141,6 +141,8 @@ Another discovery is that if I used `-Force On` at the end of `Set-ProcessMitiga
 ```powershell
 Set-ProcessMitigation -System -Disable DEP, EmulateAtlThunks, SEHOP, ForceRelocateImages, RequireInfo, BottomUp, HighEntropy, StrictHandle, DisableWin32kSystemCalls, AuditSystemCall, DisableExtensionPoints, BlockDynamicCode, AllowThreadsToOptOut, AuditDynamicCode, CFG, SuppressExports, StrictCFG, MicrosoftSignedOnly, AllowStoreSignedBinaries, AuditMicrosoftSigned, AuditStoreSigned, EnforceModuleDependencySigning, DisableNonSystemFonts, AuditFont, BlockRemoteImageLoads, BlockLowLabelImageLoads, PreferSystem32, AuditRemoteImageLoads, AuditLowLabelImageLoads, AuditPreferSystem32, EnableExportAddressFilter, AuditEnableExportAddressFilter, EnableExportAddressFilterPlus, AuditEnableExportAddressFilterPlus, EnableImportAddressFilter, AuditEnableImportAddressFilter, EnableRopStackPivot, AuditEnableRopStackPivot, EnableRopCallerCheck, AuditEnableRopCallerCheck, EnableRopSimExec, AuditEnableRopSimExec, SEHOP, AuditSEHOP, SEHOPTelemetry, TerminateOnError, DisallowChildProcessCreation, AuditChildProcess, UserShadowStack, AuditUserShadowStack, DisableFsctlSystemCalls
 ```
+
+
 <br>
 
 
