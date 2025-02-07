@@ -197,43 +197,38 @@ Just dropping these here for now
 
 <body>
 
-<h2>HTML Table</h2>
+<h2>Drivers</h2>
 
 <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <tr>
+    <th>Driver</th>
+    <th>Link</a></th>
+    <th>Verison</th>
+    <th>Date</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Nvidia GPU Driver</td>
+    <td><a href="https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe">Download</a></td>
+    <td>v572.16</td>
+    <td>1/30/2025</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Realtek Ethernet Driver</td>
+    <td><a href="https://www.realtek.com/Download/ToDownload?type=direct&downloadid=4342">Download</a></td>
+    <td>v1125.021</td>
+    <td>12/24/2024</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+    <td>XL2546K Driver</td>
+    <td><a href="https://esupportdownload.benq.com/esupport/ESPORTS%20DISPLAY/Driver/XL2546K/XL2546K_WHQL%20driver_V001_Windows.zip">Download</a></td>
+    <td>v001</td>
+    <td>1/3/2022</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
+    <td>Samsung G7 Driver</td>
+    <td><a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=8660949&CDCttType=DR&ModelType=C&ModelName=LS32BG752NNXGO&VPath=DR/202206/20220620100428315/SxxBG75x.exe">Download</a></td>
+    <td>v1.0</td>
+    <td></td>
   </tr>
 </table>
 
