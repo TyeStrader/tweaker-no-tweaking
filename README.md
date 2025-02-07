@@ -73,7 +73,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 > [!WARNING]
 > Messing with your bcdedit options can make it so a majority of anti-cheats won't work, causing games to be unplayable, heres my safe tested list
 
-  - Anti-Cheats tested on > nProtect, Easy-Anti-Cheat, XignCode
+  - Anti-Cheats tested on > Battle-Eye, nProtect, Easy-Anti-Cheat, XignCode
 
 <strong>-- Safe for Anti-Cheats --</strong>
 
