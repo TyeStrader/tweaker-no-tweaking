@@ -1,19 +1,31 @@
 # What this
 
-## For personal use, what you do with this stuff is on you
+> [!CAUTION]
+> A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, or maybe it'll end up that way, who knows.
+>
+> Some changes outlined below ***WILL*** negatively impact security an you ***WILL*** lose out on a lot of functionality if not careful. I ever get around to actually listing out all the stuff I do.
+>
+> That being said, continue on your never ending journey of maxing performance. I'll be soft on your heels king <span style='font-size:100px;'>&#9818;</span>
 
-> [!WARNING]
-> A place for me to log my thoughts an explore the universe of tweaks, skizo shit and all. This isn't your end-all be-all for tweaks, nothing here is coherent an there will most likely be conflicting settings among files<br>
+## Its not a crack house, its a crack home fellow tweaker <span style='font-size:100px;'>&#128146;</span>
+
+> [!TIP]
+> Don't go an just start copy-pasting into your fuckin powershell either dickhead. I'm fine with reinstalling my OS for the 50th time from scratch, are you? It's been a long journey, you'd think I'd learn
+> to stop stripping my OS down so far that its unrestorable after the 49th time I break it. The things an autist will do in the name of performance  
 >
-> 🔒 Some changes outlined in the table below may negatively impact security. Users should assess the security risk involved with modifying the mentioned setting.<br>
->
-> Continue at your own risk.
+> I digress. The reason I've even started this project is because I finally pushed my luck too far an managed to wipe both my drives, killing one of them, long time coming to be fair. This means all my tools/scripts/guides
+> I had went up in flames, getting me to stop being lazy an compile everything into something digestable for not only myself, but for you tweakers too.
+
+![83a3adfc2f034f2195cf5ea0d8979f007935d87db3168d01c7eb6ca22faef67c_1-1558174810](https://github.com/user-attachments/assets/7859d457-8d06-4415-8dd3-d687cdff16d8)
+
+----------------------------------------------------------------
+
+## Software
 
 `Drivers, Tools, Programs`
-
-<details><br>
   
-### Drivers
+## Drivers
+
 
 (Driver may not link to most up to date stuff, check)
 
@@ -27,7 +39,7 @@
 <p><strong>Samsung G7 Firmware File</strong> - >  <a href="https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=9112067&CDCttType=FM&ModelType=C&ModelName=LS32BG752NNXGO&VPath=FM/202412/20241204145341976/M-B7532GGZA.zip">Download</a> - <em>v1012.0</em><br>
 <strong>Nvidia GPU Firmware Update Software</strong> - >  <a href="https://us.download.nvidia.com/Windows/uefi/firmware/1.2/NVIDIA_UEFI_Firmware_Updater_1.2-x64.exe">Download</a> - <em>v1.2 - 11/18/2022</em><br>
 
-### Tools
+## Tools
 
 (Tools may not link to most up to date stuff, check)<br>
 All folders have a <strong><em># Use/Install Explanation</em></strong>, read them for help
@@ -44,7 +56,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 <strong>Scaled Resolution Editor</strong> - > <a href="https://www.monitortests.com/download/sre/sre-1.0.zip">Download</a> - <em>v1.0 - 1/15/2024</em><br>
 <strong>SwitchPowerScheme</strong> - > <a href="https://www.sordum.org/files/downloads.php?switch-power-scheme">Download</a> - <em>v1.3 - 6/11/2021</em><br>
 
-### Programs
+## Programs
 
 (Programs may not link to most up to date stuff, check)
 
@@ -62,9 +74,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 <strong>Vencord</strong> - > <a href="https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe">Download</a><br>
 <strong>Wootility</strong> - > <a href="https://api.wooting.io/public/wootility/download?os=win&version=5.0.0-beta.6">Download</a><br>
 
-</details><br>
-
-# Research
+## Research
 
 > [!IMPORTANT]
 > These are tested on *MY* system, a specific configuration of hardware/software. What I did may not produce the results you may get. I cannot gureentee anything other then the stuff I test on my own system, these are just my findings.
@@ -185,13 +195,71 @@ Just dropping these here for now
 > [!CAUTION]
 > Negative potential consequences of an action.
 
-<div class="alert">
-  <strong>Warning!</strong> This is a warning alert.
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-<br>
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
 
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+</body>
+</html>
 
 
 
