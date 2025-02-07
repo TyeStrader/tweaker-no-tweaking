@@ -97,7 +97,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 `bcdedit /set vm No`<br>
 `bcdedit /set configaccesspolicy Default`<br>
 `bcdedit /set msi Default`<br>
-`bcdedit /set x2apicpolicy Enabled`<br>
+`bcdedit /set x2apicpolicy Enable`<br>
 `bcdedit /set linearaddress57 optout`<br>
 `bcdedit /set bootux Disabled`<br>
 `bcdedit /set tpmbootentropy ForceDisable`<br>
