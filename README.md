@@ -98,7 +98,6 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 `bcdedit /set nolowmem Yes`<br>
 `bcdedit /set noumex Yes`<br>
 `bcdedit /set novga Yes`<br>
-`bcdedit /set useplatformtick Yes`<br>
 `bcdedit /set bootdebug No`<br>
 `bcdedit /set bootlog No`<br>
 `bcdedit /set ems No`<br>
@@ -136,11 +135,11 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 `bcdedit /set pae ForceDisable`<br>
 `bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS`<br>
 
-<strong>-- Works with Anti-Cheat. Unsure on Results, Testing Between the Two --</strong>
+<strong>-- Works with Anti-Cheat. Unsure on Results (Performance), Testing --</strong>
 
 `bcdedit /set tscsyncpolicy Enhanced`<br>
-Or<br>
 `bcdedit /set tscsyncpolicy Legacy`<br>
+`bcdedit /set useplatformtick Yes`<br>
 
 <strong>-- Need to Test Still --</strong>
 
