@@ -89,6 +89,14 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 
 <strong>-- Safe for Anti-Cheats --</strong>
 
+|BCDEDIT||Version|
+|---|---|---|
+|Nvidia GPU Driver|v576.12|1/30/2025|
+|Realtek Ethernet Driver|v1125.021|12/24/2024|
+|XL2546K Driver|v001|1/3/2022|
+|Samsung G7 Driver|v1.0| |
+
+
 `bcdedit /set debug No`<br>
 `bcdedit /set disabledynamictick Yes`<br>
 `bcdedit /set disableelamdrivers Yes`<br>
@@ -160,7 +168,7 @@ MitigationOptions
                
 Using the mask $\color{blue}\textsf{{222222222222222222222222222222222222222222222222}}$ for `MitigationOptions` might not actually disable them, using (powershell) `Get-ProcessMitigation -Name discord.exe -RunningProcess` returned that both CFG and ASLR high/bottom was enabled, with process explorer also confirming this. Instead I took a look at what mask is set when using `Set-ProcessMitigation -System -Disable  <big block of values from microsoft website>` an it returned $\color{blue}\textsf{{222222222222222220020000002000200000002000000000}}$. After a restart, running the `Get-ProcessMitigation` command for discord now shows that ASLR and CFG is disabled, with process explorer also confirming. This isn't limited to just discord, I checked steam an a couple games with the same results
 
-Another discovery is that if I used `-Force On` at the end of `Set-ProcessMitigation -System -Disable <values>` it instead set the mask as $\color{blue}\textsf{{666666666666666660060000006000600000006000000000}}$, which overrides mitigations completely at a system level but made some apps loop opening an closing child processes causing high cpu usage (discord, steam) The reason I can find for this is because apps override some mitigations for its children, for example a value of 2 signals that it should be disabled, but itll allow it if necessary. A value of 6 completely disallows this, causing those child processes to break. Use the `-Force On` syntax to set the override value when doing `Get-ProcessMitigation -System`
+Another discovery is that if I used `-Force On` at the end of `Set-ProcessMitigation -System -Disable <values>` it instead set the mask as $\color{blue}\textsf{{666666666666666660060000006000600000006000000000}}$, which overrides mitigations completely at a system level but made some apps loop opening an closing child processes causing high cpu usage (discord, steam) The reason I can find for this is because apps override some mitigations for its children, for example a value of 2 signals that it should be disabled, but itll allow it if necessary. A value of 6 completely disallows this, causing those child processes to break. Use the `-Force On` to set the override value when doing `Get-ProcessMitigation -System`
 
 You can disable mitigations with either of the options below, they do *literally* the same thing.
 
