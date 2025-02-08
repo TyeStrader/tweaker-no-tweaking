@@ -130,7 +130,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 <strong>-- Not Safe for Anti-Cheats --</strong>
 
 `bcdedit /set testsigning Yes`<br>
-`bcdedit /set hypervisorlaunchtype No`<br>
+`bcdedit /set hypervisorlaunchtype Off`<br>
 `bcdedit /set vsmlaunchtype No`<br>
 `bcdedit /set pae ForceDisable`<br>
 `bcdedit /set loadoptions DISABLE-LSA-ISO,DISABLE-VBS`<br>
