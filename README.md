@@ -89,51 +89,46 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 
 <strong>-- Safe for Anti-Cheats --</strong>
 
-|BCDEDIT||Version|
+| BCDEDIT | KEY | VALUE | 
 |---|---|---|
-|Nvidia GPU Driver|v576.12|1/30/2025|
-|Realtek Ethernet Driver|v1125.021|12/24/2024|
-|XL2546K Driver|v001|1/3/2022|
-|Samsung G7 Driver|v1.0| |
+| bcdedit /set | debug | No | 
+| bcdedit /set | disabledynamictick | Yes |
+| bcdedit /set | disableelamdrivers | Yes |
+| bcdedit /set | extendedinput | Yes |
+| bcdedit /set | forcefipscrypto | No |
+| bcdedit /set | highestmode | Yes |
+| bcdedit /set | nointegritychecks | Yes |
+| bcdedit /set | nolowmem | Yes |
+| bcdedit /set | noumex | Yes |
+| bcdedit /set | novga | Yes |
+| bcdedit /set | bootdebug | No |
+| bcdedit /set | bootlog | No |
+| bcdedit /set | ems | No |
+| bcdedit /set | event | No |
+| bcdedit /set | forcelegacyplatform | No |
+| bcdedit /set | halbreakpoint | No |
+| bcdedit /set | hypervisordebug | No |
+| bcdedit /set | isolatedcontext | No |
+| bcdedit /set | recoveryenabled | No |
+| bcdedit /set | usefirmwarepcisettings | No |
+| bcdedit /set | uselegacyapicmode | No |
+| bcdedit /set | usephysicaldestination | No |
+| bcdedit /set | useplatformclock | No |
+| bcdedit /set | vga | No |
+| bcdedit /set | vm | No |
+| bcdedit /set | configaccesspolicy | Default |
+| bcdedit /set | msi | Default |
+| bcdedit /set | x2apicpolicy | Enable |
+| bcdedit /set | linearaddress57 | optout |
+| bcdedit /set | bootux | Disabled |
+| bcdedit /set | tpmbootentropy | ForceDisable |
+| bcdedit /set | nx | AlwaysOff/optout |
+| bcdedit /set | bootmenupolicy | Legacy |
+| bcdedit /set | firstmegabytepolicy | UseAll |
+| bcdedit /set | allowedinmemorysettings | 0x0 |
+| bcdedit /set | avoidlowmemory | 0x8000000 |
+| bcdedit /set | increaseuserva | 268435328 |
 
-
-`bcdedit /set debug No`<br>
-`bcdedit /set disabledynamictick Yes`<br>
-`bcdedit /set disableelamdrivers Yes`<br>
-`bcdedit /set extendedinput Yes`<br>
-`bcdedit /set highestmode Yes`<br>
-`bcdedit /set nointegritychecks Yes`<br>
-`bcdedit /set nolowmem Yes`<br>
-`bcdedit /set noumex Yes`<br>
-`bcdedit /set novga Yes`<br>
-`bcdedit /set bootdebug No`<br>
-`bcdedit /set bootlog No`<br>
-`bcdedit /set ems No`<br>
-`bcdedit /set event No`<br>
-`bcdedit /set forcelegacyplatform No`<br>
-`bcdedit /set halbreakpoint No`<br>
-`bcdedit /set hypervisordebug No`<br>
-`bcdedit /set isolatedcontext No`<br>
-`bcdedit /set recoveryenabled No`<br>
-`bcdedit /set usefirmwarepcisettings No`<br>
-`bcdedit /set uselegacyapicmode No`<br>
-`bcdedit /set usephysicaldestination No`<br>
-`bcdedit /set useplatformclock No`<br>
-`bcdedit /set vga No`<br>
-`bcdedit /set vm No`<br>
-`bcdedit /set configaccesspolicy Default`<br>
-`bcdedit /set msi Default`<br>
-`bcdedit /set x2apicpolicy Enable`<br>
-`bcdedit /set linearaddress57 optout`<br>
-`bcdedit /set bootux Disabled`<br>
-`bcdedit /set tpmbootentropy ForceDisable`<br>
-`bcdedit /set nx AlwaysOff`<br>
-`bcdedit /set bootmenupolicy Legacy`<br>
-`bcdedit /set firstmegabytepolicy UseAll`<br>
-`bcdedit /set allowedinmemorysettings 0x0`<br>
-`bcdedit /set avoidlowmemory 0x8000000`<br>
-`bcdedit /set increaseuserva 268435328`<br>
-`bcdedit /set forcefipscrypto No`<br>
 
 <strong>-- Not Safe for Anti-Cheats --</strong>
 
