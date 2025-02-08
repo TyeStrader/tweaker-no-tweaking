@@ -89,14 +89,19 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 
 <strong>-- Safe for Anti-Cheats --</strong>
 
-
+`bcdedit /set debug No`<br>
 `bcdedit /set disabledynamictick Yes`<br>
+`bcdedit /set disableelamdrivers Yes`<br>
+`bcdedit /set extendedinput Yes`<br>
+`bcdedit /set highestmode Yes`<br>
 `bcdedit /set nointegritychecks Yes`<br>
 `bcdedit /set nolowmem Yes`<br>
+`bcdedit /set noumex Yes`<br>
 `bcdedit /set novga Yes`<br>
 `bcdedit /set useplatformtick Yes`<br>
 `bcdedit /set bootdebug No`<br>
 `bcdedit /set bootlog No`<br>
+`bcdedit /set ems No`<br>
 `bcdedit /set event No`<br>
 `bcdedit /set forcelegacyplatform No`<br>
 `bcdedit /set halbreakpoint No`<br>
@@ -121,13 +126,11 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 `bcdedit /set allowedinmemorysettings 0x0`<br>
 `bcdedit /set avoidlowmemory 0x8000000`<br>
 `bcdedit /set increaseuserva 268435328`<br>
-
+`bcdedit /set forcefipscrypto No`<br>
 
 <strong>-- Not Safe for Anti-Cheats --</strong>
 
-`bcdedit /set disableelamdrivers Yes`<br>
 `bcdedit /set testsigning Yes`<br>
-`bcdedit /set debug No`<br>
 `bcdedit /set hypervisorlaunchtype No`<br>
 `bcdedit /set vsmlaunchtype No`<br>
 `bcdedit /set pae ForceDisable`<br>
@@ -141,15 +144,10 @@ Or<br>
 
 <strong>-- Need to Test Still --</strong>
 
-`bcdedit /set ems No`<br>
 `bcdedit /set bootems No`<br> 
 `bcdedit /set integrityservices disable`<br> 
-`bcdedit /set noumex Yes`<br>
-`bcdedit /set extendedinput Yes`<br>
-`bcdedit /set highestmode Yes`<br>
 
 ## Process Mitigations
-
 
 > [!NOTE]  
 > A second round of testing~ now on $\color{orange}\textsf{{Windows 11 IoT Enterprise LTSC (24H2)}}$, was on $\color{orange}\textsf{{Windows 11 Pro (23H2)}}$, same results. Thought maybe it was since I tweak the shit out of my os, I had broken something an the mitigation settings weren't being set correctly. Turns out, two fresh OS installs an two 6 hour sessions tediously restarting my pc and games over an over have left me to my final conclusion~ I can't blindly trust even what I think are pretty well known + used tweaks. I have skimmed over a lot of 'tweaking' guides an files, it seems like the general conclusion without question is that having the setting `MitigationOptions` & `MitigationAuditOptions` set to $\color{blue}\textsf{{222222222222222222222222222222222222222222222222}}$ will mask all mitigations, turning them off. Saw some dickhead with a weird set of values an was like :japanese_goblin: what he know that I don't? Now, I also been assimilated into said dickhead with the weird values.
