@@ -102,6 +102,7 @@ All folders have a <strong><em># Use/Install Explanation</em></strong>, read the
 `bcdedit /set halbreakpoint No`<br>
 `bcdedit /set hypervisordebug No`<br>
 `bcdedit /set isolatedcontext No`<br>
+`bcdedit /set recoveryenabled No`<br>
 `bcdedit /set usefirmwarepcisettings No`<br>
 `bcdedit /set uselegacyapicmode No`<br>
 `bcdedit /set usephysicaldestination No`<br>
@@ -143,6 +144,9 @@ Or<br>
 `bcdedit /set ems No`<br>
 `bcdedit /set bootems No`<br> 
 `bcdedit /set integrityservices disable`<br> 
+`bcdedit /set noumex Yes`<br>
+`bcdedit /set extendedinput Yes`<br>
+`bcdedit /set highestmode Yes`<br>
 
 ## Process Mitigations
 
